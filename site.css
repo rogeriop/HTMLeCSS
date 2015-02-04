@@ -71,6 +71,9 @@ aside h1 {
     font-size: 30px;
     padding-bottom: 25px;
 }
+li {
+    display: none;
+}
 
 footer {
     background-color: #000;
@@ -87,4 +90,3 @@ strong {
 em {
     font-style: italic;
 }
-    
