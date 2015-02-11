@@ -21,6 +21,7 @@ h1, h2 {
 
 h2 {
     font-size: 30px;
+    clear: both;
 }
 
 
@@ -34,6 +35,11 @@ main div {
 
 }
 
+main {
+    float:  left;
+    width: 85%;
+    padding-bottom: 80px;
+}
 
 p {
     font-family: "Crimson Text", sans-serif;
@@ -61,13 +67,28 @@ main p {
     border-right-color: #FFF;
 }
 
+.fiat {
+    float: left;
+}
+
+.petrobras {
+    float: right;
+}
+
 .menus {
     font-family: "Open Sans Condensed";
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
     text-transform: lowercase;
-
+    width: 100px;
+    float: right;
+    box-sizing: border-box;
+    width: 15%;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    position:  relative;
+    top: 310px;
 }
 
 .menus h1 {
@@ -103,6 +124,24 @@ main p {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
+    clear:  both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.foto-do-silva {
+    float: right;
+    width: 300px;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;    
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .leia-mais {
